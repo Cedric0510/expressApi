@@ -1,0 +1,17 @@
+{
+  "name": "exercice",
+  "version": "1.0.0",
+  "description": "Initiation Node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev nodemon index.js",
+    "start": "NODE_ENV=prod node index.js"
+  },
+  "author": "MOI!",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
